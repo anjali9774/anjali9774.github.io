@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,700;0,900;1,100;1,200&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="game">
+    <div class="head">
+        <div class="name">
+            <h1>ROCK</h1>
+            <h1>PAPER</h1>
+            <h1>SCISSOR</h1>
+        </div>
+        <div class="score-board">
+            <p>Your <br>Score</p>
+            <div class="score">
+                0
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+            <button class="scissor style" onclick="butt('scissor')"><img src="scissor.png" alt=""></button>
+            <button class="stone style" onclick="butt('stone')"><img src="stone.png" alt=""></button></div>
+        <img src="line.png" alt="" class="line img1">
+        <img src="line.png" alt="" class="line img2">
+        <img src="line.png" alt="" class="line img3">
+        <div>
+            <button class="paper style paper-margin" onclick="butt('paper')"><img src="paper.png" alt=""></button>
+        </div>
+
+
+        <div class="try-again-1" onclick="tryAgain1()">Try Again</div>
+        
+
+
+    </div>
+
+    <div class="rules-area">
+        <div class="rules-popup">
+            <button onclick="cross()">x</button>
+            <div>
+                <h2>Game Rules</h2>
+                <ul>
+                    <li><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span></li>
+                    <li><span>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</span></li>
+                    <li><span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time”</span></li>
+                    <li><span>If both players lay down the same hand, each player lays down another hand</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rules-button" onclick="rules()">RULES</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
