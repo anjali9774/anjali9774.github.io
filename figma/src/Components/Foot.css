@@ -1,0 +1,28 @@
+.material{
+    display: flex;
+    background: #282828;
+    color: white;
+    justify-content: space-between;
+    padding-top:  40px ;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    margin-bottom:8px ;
+    cursor: pointer;
+}
+
+.rightMaterial{
+    text-align: right;
+}
+
+.logos{
+    height: 16px;
+}
